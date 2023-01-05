@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/vetores-gratis/prancheta-papel-e-ilustracao-do-icone-dos-desenhos-animados-do-lapis-conceito-de-icone-de-objeto-de-educacao-isolado-estilo-flat-cartoon_138676-2152.jpg?w=2000">
+    <title>Tabelas 2</title>
+    <style>
+        nav{
+        display: flex;
+        justify-content: center;
+    }
+    a:hover {
+        color: rgb(40, 154, 207);
+        text-decoration: underline;
+    }
+    a{
+        text-decoration: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+    }
+
+    table{ 
+        border: 1px solid;
+        width: 200px;
+        height: 200px;
+    }
+    .table3{ 
+        border: 1px solid;
+        width: 350px;
+        height: 350px;
+    }
+    
+    td{
+        border: 1px solid;
+        padding: 8px;
+    }
+    .tdestaque{
+        background-color: rgb(77, 77, 77);
+    }
+    .tdestaque:hover{
+        background-color: rgb(78, 177, 69);
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/tabelas.html">Tabelas</a></li>
+                <li><a href="/estruturas.html">Estruturas</a></li>
+                <li><a href="/layout-pagina.html">Layout da página</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <td colspan="3" class="tdestaque"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> <hr>
+
+        <table >
+            <tr>
+                <td rowspan="3" class="tdestaque"></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> <hr>
+
+        <table class="table3">
+            <tr>
+                <td colspan="5" class="tdestaque"></td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="tdestaque"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td rowspan="2" class="tdestaque"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="tdestaque"></td>
+                <td></td>
+
+            </tr>
+        </table>
+       
+    </main>
+
+</body>
+</html>

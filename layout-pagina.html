@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/vetores-gratis/prancheta-papel-e-ilustracao-do-icone-dos-desenhos-animados-do-lapis-conceito-de-icone-de-objeto-de-educacao-isolado-estilo-flat-cartoon_138676-2152.jpg?w=2000">
+    <title>Layout Página</title>
+    <style>
+        nav{
+        display: flex;
+        justify-content: center;
+    }
+    a:hover {
+        color: rgb(40, 154, 207);
+        text-decoration: underline;
+    }
+    a{
+        text-decoration: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        margin: 25px;
+    }
+
+    table{ 
+        border-collapse: collapse;
+        width: 700px;
+        height: 200px;
+        text-align: center;
+        
+    }
+    td{ border: 1px solid;
+
+    }
+    .tdrodape{
+        width: 100px;
+        height: 50px;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/tabelas.html">Tabelas</a></li>
+                <li><a href="/estruturas.html">Estruturas</a></li>
+                <li><a href="/layout-pagina.html">Layout da página</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <tr>
+                <td colspan="2"><h1>Estrutura de Layout da página</h1></td><!--topo-->
+            </tr>
+
+            <tr>
+                <td> <!--menu-->
+                    <ul> 
+                        <li><a href="https://www.w3schools.com/html/html_table_borders.asp" target="_blank">Borders</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_sizes.asp" target="_blank">Sizes</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_headers.asp" target="_blank">Headers</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_padding_spacing.asp" target="_blank">Padding e Spacing </a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_colspan_rowspan.asp" target="_blank">Colspan e Rowspan</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_styling.asp" target="_blank">Zebra Stripes</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_styling.asp" target="_blank">Hover</a></li>
+                        <li><a href="https://www.w3schools.com/html/html_table_colgroup.asp" target="_blank">Colgroup</a></li>
+
+                    </ul>
+                </td> 
+                <td> <!--conteúdo-->
+                    As tabelas permitem que o desenvolvedor web organize os dados em linha se colunas. Um conjunto de dados estruturados.<br>
+                    <strong>Exemplo: título &lt;th&gt;; linhas &lt;tr&gt;; colunas &lt;td&gt;.</strong> <br>
+                    Além disso, também podemos estilizar as tabelas, utilizando as propriedades informados no <strong>menu</strong> ao lado.
+                    <h3>Resumo</h3>
+                    <p><strong>Border</strong> permite a estilização e a alteração no formato das bordas;</p>
+                    <p><strong>Size</strong> permite manipular o tamanho de cada linha, coluna ou mesmo da tabela inteira;</p>
+                    <p><strong>Padding</strong> faz com que ocorra o preechimento nas células da tabela;</p>
+                    <p><strong>Spacing</strong> altera os espaços entre as células de uma tabela;</p>
+                    <p><strong>Colspan</strong> mescla as células de acordo com a quantidade informada de <strong><u>colunas</u></strong>;</p>
+                    <p><strong>Rowspan</strong> mescla as células de acordo com a quantidade informada de <strong><u>linhas</u></strong>;</p>
+                    <p><strong>Zebra Stripes</strong> adiciona uma cor ao fundo das linhas da tabela, de forma alternada, semelhante a pintura de uma zebra;</p>
+                    <p><strong>Hover</strong> destaca a célula em que o cursor está apontando; </p>
+                    <p><strong>Colgroup</strong> permite a estilização de uma coluna em sua tabela.</p>
+
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2" class="tdrodape"><!--rodapé-->
+                    É possível acessar este e mais conteúdos de desenvolvimento web no site <a href="https://www.w3schools.com/" target="_blank">W3Schools.</a>
+                </td>
+            </tr>
+        </table>
+    
+    </main>
+</body>
+</html>
